@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -35,4 +35,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.imgDetalle{
+  padding: 25px 0px 15px 15px;
+}
+.detallePersonaje{
+  padding: 15px 0px 15px 0px;
 }
