@@ -16,7 +16,8 @@ function App() {
           <Route exact path="/" element={<Main />}  ></Route>
           <Route exact path="/user-form" element={<UserForm />}  ></Route>
           <Route exact path="/detail/:id" element={<Detail />}  ></Route>
-          <Route exact path ="PageNotFound" element={<PageNotFound/>} ></Route>
+          {/* definir este llamado a pagina PageNotFound */}
+          <Route exact path ="PageNotFound" element={<PageNotFound/>} ></Route>  
         </Routes>
       
       <Footer />
