@@ -9,7 +9,7 @@ const PageNotFound = () => {
 <h1>up's ... error 404 :/</h1>
 </div>
             
-          <img width="40%" class="rounded mx-auto d-block" src="404-juano.jpg" alt="imagen 404" />
+          <img width="40%" class="rounded mx-auto d-block" src="404.jpg" alt="imagen 404" />
       
 </section>
   )

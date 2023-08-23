@@ -14,10 +14,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Main />}  ></Route>
-          <Route exact path="/user-form" element={<UserForm />}  ></Route>
+          <Route exact path="/UserForm" element={<UserForm />}  ></Route>
           <Route exact path="/detail/:id" element={<Detail />}  ></Route>
-          {/* definir este llamado a pagina PageNotFound */}
-          <Route exact path ="PageNotFound" element={<PageNotFound/>} ></Route>  
+          <Route path ="*" element={<PageNotFound/>} ></Route> 
         </Routes>
       
       <Footer />
