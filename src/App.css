@@ -44,8 +44,9 @@
   padding: 15px 0px 15px 0px;
 }
 
-.active {
-    background-color: #2156a4;
+/* PERSONALIZA COLOR DE FONDO DEL NAVBAR */
+.active {  
+    background-color: #1563d8;
   border-radius: 7px;  
   
 }
