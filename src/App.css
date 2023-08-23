@@ -43,3 +43,9 @@
 .detallePersonaje{
   padding: 15px 0px 15px 0px;
 }
+
+.active {
+    background-color: #2156a4;
+  border-radius: 7px;  
+  
+}
