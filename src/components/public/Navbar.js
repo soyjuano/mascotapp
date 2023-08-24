@@ -17,7 +17,7 @@ const Navbar = () => {
           <li><a href="UserForm" className="nav-link px-2 text-white">Contacto</a></li> */}
 
           <NavLink exact to="/" className="nav-link px-2 text-secondary" activeClassName="active">Home </NavLink>          
-          <NavLink exact to="/Features" className="nav-link px-2 text-secondary" activeClassName="active">Features </NavLink>
+          <NavLink exact to="/Personajes" className="nav-link px-2 text-secondary" activeClassName="active">Personajes </NavLink>
           <NavLink exact to="/Pricing" className="nav-link px-2 text-secondary" activeClassName="active">Pricing </NavLink>
           <NavLink exact to="/FAQs" className="nav-link px-2 text-secondary" activeClassName="active">FAQs </NavLink>
           <NavLink exact to="/UserForm" className="nav-link px-2 text-secondary" activeClassName="active">Contacto </NavLink>

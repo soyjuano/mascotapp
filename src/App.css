@@ -46,7 +46,7 @@
 
 /* PERSONALIZA COLOR DE FONDO DEL NAVBAR */
 .active {  
-    background-color: #1563d8;
-  border-radius: 7px;  
+  border: 1px solid;
+  border-radius: 5px;  
   
 }

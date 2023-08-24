@@ -6,6 +6,7 @@ import Navbar from './components/public/Navbar';
 import UserForm from './components/public/UserForm';
 import Detail from './components/public/Detail';
 import PageNotFound from './components/public/PageNotFound';
+import Personajes from './components/public/Personajes';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Main />}  ></Route>
+          <Route exact path="/personajes" element={<Personajes />}  ></Route>
           <Route exact path="/UserForm" element={<UserForm />}  ></Route>
           <Route exact path="/detail/:id" element={<Detail />}  ></Route>
           <Route path ="*" element={<PageNotFound/>} ></Route> 
