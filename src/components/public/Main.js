@@ -4,11 +4,10 @@ import RMservice from '../../services/RMservice';
 
 export default class Main extends Component {
 
-  constructor(props) {
-    super(props);
-    this.state = { mascotas: [] };
-  }
-
+   constructor(props) {
+     super(props);
+     this.state = { mascotas: [] };
+  };
 
   render() {
 
