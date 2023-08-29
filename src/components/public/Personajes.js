@@ -19,7 +19,7 @@ const Personajes = () => {
 
   const handlePrev = (e) => {
     history({search: `?inicio=${start - LIMIT}&fin=${end - LIMIT}`});
-  };
+  };//  estoy por aca
 
   const handleNext = (e) => {
     history({search: `?inicio=${start + LIMIT}&fin=${end + LIMIT}`});
