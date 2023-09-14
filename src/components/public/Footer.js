@@ -23,8 +23,8 @@ const Footer = () => {
                     <img
                         className="App-logo"
                         height="52"
-                        src="patita-negra.png"
-                        alt="patita-giratoria"
+                        src="rick.png"
+                        alt="rick-giratorio"
 
                     />
                 </span>

@@ -7,6 +7,8 @@ const Navbar = () => {
     <div className="container">
       
       <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+      
        
         <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
 
@@ -20,7 +22,7 @@ const Navbar = () => {
           <NavLink exact to="/Personajes" className="nav-link px-2 text-secondary" activeClassName="active">Personajes </NavLink>
           <NavLink exact to="/Pricing" className="nav-link px-2 text-secondary" activeClassName="active">Pricing </NavLink>
           <NavLink exact to="/FAQs" className="nav-link px-2 text-secondary" activeClassName="active">FAQs </NavLink>
-          <NavLink exact to="/UserForm" className="nav-link px-2 text-secondary" activeClassName="active">Contacto </NavLink>
+          {/* <NavLink exact to="/UserForm" className="nav-link px-2 text-secondary" activeClassName="active">Contacto </NavLink> */}
 
         </ul>
 
@@ -30,7 +32,9 @@ const Navbar = () => {
 
         <div className="text-end">
           <button type="button" className="btn btn-outline-light me-2">Login</button>
+          <Link to="/UserForm">
           <button type="button" className="btn btn-warning">Sign-up</button>
+          </Link>
         </div>
       </div>
     </div>
